@@ -14,7 +14,7 @@ Before you start, ensure that you have the following:
 # Usage
 This section provides a few basic examples of how to use the functionality of the project.
 
-##vectAdd.cu
+## vectAdd.cu
 The vectAdd.cu file is used for vector addition. Here is a basic example of how to use it:
 // Initialize vectors A and B
 float* A = (float*)malloc(size);
@@ -29,7 +29,7 @@ for(int i = 0; i < N; i++){
 // Call the function from vectAdd.cu
 vectAdd(A, B, N);
 
-##mathAdd.cu
+## mathAdd.cu
 The matAdd.cu file is used for matrix addition. Here is a basic example of how to use it:
 // Initialize matrices A and B
 float* A = (float*)malloc(size);

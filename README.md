@@ -10,3 +10,38 @@ Before you start, ensure that you have the following:
 -The CUDA toolkit, which includes the CUDA runtime library and the necessary headers for GPU programming.
 -A compatible GPU device with CUDA support.
 -Sufficient memory allocation for the host and device arrays used in the program.
+
+# Usage
+This section provides a few basic examples of how to use the functionality of the project.
+
+##vectAdd.cu
+The vectAdd.cu file is used for vector addition. Here is a basic example of how to use it:
+// Initialize vectors A and B
+float* A = (float*)malloc(size);
+float* B = (float*)malloc(size);
+
+// Fill vectors with some values
+for(int i = 0; i < N; i++){
+    A[i] = i;
+    B[i] = i;
+}
+
+// Call the function from vectAdd.cu
+vectAdd(A, B, N);
+
+##mathAdd.cu
+The matAdd.cu file is used for matrix addition. Here is a basic example of how to use it:
+// Initialize matrices A and B
+float* A = (float*)malloc(size);
+float* B = (float*)malloc(size);
+
+// Fill matrices with some values
+for(int i = 0; i < N; i++){
+    for(int j = 0; j < N; j++){
+        A[i*N + j] = i + j;
+        B[i*N + j] = i - j;
+    }
+}
+
+// Call the function from matAdd.cu
+matAdd(A, B, N);

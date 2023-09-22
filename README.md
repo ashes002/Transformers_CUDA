@@ -12,8 +12,8 @@ Before you start, ensure that you have the following:
 - Sufficient memory allocation for the host and device arrays used in the program.
 
 # Methodology
-** 1. Install the C compiler **
-      You can download the C compiler from the official website. Follow standard instructions provided to install it on your system.
+**1. Install the C compiler**
+     You can download the C compiler from the official website. Follow standard instructions provided to install it on your system.
 
 
 # Usage

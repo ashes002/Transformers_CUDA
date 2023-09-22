@@ -13,6 +13,7 @@ Before you start, ensure that you have the following:
 
 # Methodology
 **1. Install the C compiler**
+
      You can download the C compiler from the official website. Follow standard instructions provided to install it on your system.
 
 

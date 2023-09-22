@@ -12,32 +12,32 @@ Before you start, ensure that you have the following:
 - Sufficient memory allocation for the host and device arrays used in the program.
 
 # Methodology
-**1. Install the C compiler**
+1. **Install the C compiler**
 
      You can download the C compiler from the official website. Follow standard instructions provided to install it on your system.
      
-**2. Install the CUDA toolkit**
+2. **Install the CUDA toolkit**
 
      The CUDA toolkit can be downloaded from the official NVIDIA website. Follow the instructions provided to install it on your system.
 
-**3. Check your GPU compatibility**
+3. **Check your GPU compatibility**
 
      Ensure that your GPU device supports CUDA. You can check this on the official NVIDIA website.
 
-**4. Clone the repository**
+4. **Clone the repository**
 
      ```
      git clone https://github.com/username/repository.git
      ```
 
-**5. Compile the CUDA programs**
+5. **Compile the CUDA programs**
 
      Navigate to the directory containing the CUDA programs and compile them using the nvcc compiler. For example:
      ```
      nvcc matMul.cu -o matMul
      ```
 
-**6. Run the CUDA programs**
+6. **Run the CUDA programs**
 
      After compiling the CUDA programs, you can run them using the following command:
      ```
